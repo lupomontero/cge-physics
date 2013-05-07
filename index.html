@@ -1,0 +1,13 @@
+<canvas id="canvas" width="640" height="480" style="border:1px solid"></canvas>
+<script src="richard.js" ></script>
+<script>
+  // can change the array of coordinates to change the shapes.. x,y,x,y,x,y..
+  body = new RichardBody([0,0,50,0,100,100,50,100,-20,50], {x:300,y:300});
+  body2 = new RichardBody([0,0,50,0,200,100,100,200], {x:100,y:250});
+  
+  rich.addRichardBody(body);
+  rich.addRichardBody(body2);
+  
+  rich.loop();
+  
+</script>
