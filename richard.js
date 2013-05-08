@@ -389,8 +389,8 @@
   // Public interface.
   window.richard = {
     createStage: createStage,
-    createBody: function (coord, pos) {
-      return new RichardBody(coord, pos);
+    createBody: function (vertices, position, mass) {
+      return new RichardBody(vertices, position, mass);
     }
   };
 
